@@ -6,7 +6,7 @@ import base from '$app/paths';
 const config = {
 	kit: {
 		adapter: adapter({
-			fallback: `${base}404.html`
+			fallback: `${base}/404.html`
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
