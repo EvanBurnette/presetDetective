@@ -1,5 +1,6 @@
 // svelte.config.js
 import adapter from '@sveltejs/adapter-static';
+import base from '$app/paths';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
